@@ -232,7 +232,7 @@ main {
 .celeb-details-container {
   margin-top: 2rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
 }
 

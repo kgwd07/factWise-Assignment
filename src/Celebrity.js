@@ -93,7 +93,7 @@ const Celebrity = ({ id, first, dob, gender, country, description, open, toggle,
             <h4 className='title'>{first}</h4>
           </div>
           <button disabled={disableToggleBtn} className='btn' onClick={() => toggle(id)}>
-            {open ? <BsChevronDown /> : <BsChevronUp />}
+            {open ? <BsChevronUp /> : <BsChevronDown />}
           </button>
         </header>
 
